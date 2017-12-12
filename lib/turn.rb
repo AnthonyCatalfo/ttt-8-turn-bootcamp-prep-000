@@ -9,7 +9,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 45
 
 def turn(board)
-  
+
   while  true
    puts "Please enter 1-9:"
    index=input_to_index(gets)
@@ -35,4 +35,3 @@ end
 def move(array,index,value="X")
   array[index] = value
 end
-
